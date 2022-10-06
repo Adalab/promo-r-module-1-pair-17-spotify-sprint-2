@@ -1,4 +1,3 @@
-/* reset styles */
 * {
   box-sizing: border-box;
   font-family: Circular, Arial, Helvetica, sans-serif;
@@ -13,7 +12,6 @@ a {
 body {
   margin: 0; }
 
-/* header */
 .header {
   position: fixed;
   top: 0;
@@ -51,12 +49,6 @@ body {
   content: '|';
   color: white; }
 
-/* main */
-.main {
-  margin-top: 60px;
-  /* esto es lo que mide el header */ }
-
-/* hero area */
 .hero {
   padding: 60px 30px 30px 30px;
   background-color: #0691ff;
@@ -88,7 +80,6 @@ body {
   margin-top: 30px;
   font-size: 10px; }
 
-/* benefits area */
 .benefits-title {
   margin-top: 50px;
   text-align: center;
@@ -115,7 +106,6 @@ body {
   font-size: 1.25rem;
   line-height: 25px; }
 
-/* footer */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -137,6 +127,11 @@ body {
 .footer-menu-links {
   display: inline-block;
   padding: 7px; }
+
+/* main */
+.main {
+  margin-top: 60px;
+  /* esto es lo que mide el header */ }
 
 /* copy */
 .copy {
