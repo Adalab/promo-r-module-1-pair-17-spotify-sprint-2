@@ -3,17 +3,17 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 15px;
-  background-color: black;
+  background-color: $backgroundHeaderFooter;
 }
 
 .footer,
 .footer * {
   font-size: 10px;
-  color: #999;
+  color: $textFooter;
 }
 
 .footer-menu-links:hover {
-  color: white;
+  color: $textHeaderHero;
 }
 
 .footer-menu-items {

@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
+  background: $backgroundHeaderFooter;
 }
 .hero-title {
   margin-top: 50px;
@@ -30,11 +30,11 @@
 }
 
 .link:hover {
-  color: #4bb84a;
+  color: $heroButton;
 }
 
 .link-signup:before {
   padding-left: 4px;
   content: '|';
-  color: white;
+  color: $textHeaderHero;
 }

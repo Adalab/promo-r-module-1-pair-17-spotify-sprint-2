@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: Circular, Arial, Helvetica, sans-serif;
+  font-family: $fontFamily;
   font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: white;
+  color: $textHeaderHero;
   text-decoration: none;
 }
 

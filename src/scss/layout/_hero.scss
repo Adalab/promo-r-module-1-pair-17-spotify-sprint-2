@@ -1,7 +1,7 @@
 .hero {
     padding: 60px 30px 30px 30px;
-    background-color: #0691ff;
-    color: white;
+    background-color: $backgroundHero;
+    color: $textHeaderHero;
     height: 50vh;
   }
   
@@ -22,7 +22,7 @@
     margin-top: 30px;
     padding: 5px 25px;
     border-radius: 50px;
-    background-color: #4bb84a;
+    background-color: $heroButton;
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 1.5px;
